@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:wght@400;500;600&display=swap');
+
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+   
+}
+
+
+.navLink {
+  text-decoration: none;
+  color: #333; 
+  font-family: inter;
+}

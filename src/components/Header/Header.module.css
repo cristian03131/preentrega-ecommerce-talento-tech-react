@@ -1,0 +1,13 @@
+.img {
+    width: 160px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #d4b28c 0%, #f7bd6c 100%);
+    width: 100%;
+    height: 100px;
+}
