@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Breve Historia del Tiempo",
+    "author": "Stephen Hawking",
+    "editorial": "Critica",
+    "year": 1988,
+    "description": "Una exploración de las grandes preguntas sobre el cosmos y el origen del universo por Stephen Hawking.",
+    "price": 22000,
+    "image": "/img/libros/breveHistoriaDelTiempo.webp",
+    "category": "ciencia"
+  },
+  {
+    "id": 2,
+    "name": "Cosmos",
+    "author": "Carl Sagan",
+    "editorial": "Planeta",
+    "year": 1980,
+    "description": "El clásico de Carl Sagan que narra la historia del universo y la ciencia a través de los siglos.",
+    "price": 25000,
+    "image": "/img/libros/cosmos.webp",
+    "category": "ciencia"
+  },
+  {
+    "id": 3,
+    "name": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "editorial": "Minotauro",
+    "year": 1953,
+    "description": "Una novela distópica de Ray Bradbury sobre un futuro donde los libros están prohibidos y son quemados.",
+    "price": 18000,
+    "image": "/img/libros/farenheit.webp",
+    "category": "ficcion"
+  },
+  {
+    "id": 4,
+    "name": "Historia de la Computación",
+    "author": "Raúl González",
+    "editorial": "Alfaomega",
+    "year": 2018,
+    "description": "Un recorrido fascinante por la evolución de las computadoras y la tecnología digital.",
+    "price": 20000,
+    "image": "/img/libros/historiaComputacion.jpg",
+    "category": "tecnologia"
+  },
+  {
+    "id": 5,
+    "name": "Historia de los Lenguajes de Programación",
+    "author": "Thomas W. Pratt",
+    "editorial": "Prentice Hall",
+    "year": 2001,
+    "description": "Conoce los orígenes y la evolución de los lenguajes que dan vida al software moderno.",
+    "price": 21000,
+    "image": "/img/libros/historialenguajesProgramacion.webp",
+    "category": "tecnologia"
+  },
+  {
+    "id": 6,
+    "name": "JavaScript",
+    "author": "David Flanagan",
+    "editorial": "O'Reilly Media",
+    "year": 2020,
+    "description": "Guía esencial para dominar el lenguaje de programación de la web.",
+    "price": 24000,
+    "image": "/img/libros/javascript.webp",
+    "category": "tecnologia"
+  },
+  {
+    "id": 7,
+    "name": "Método de Combate Bruce Lee",
+    "author": "Bruce Lee",
+    "editorial": "Budo",
+    "year": 1978,
+    "description": "Las técnicas y filosofías de entrenamiento del legendario artista marcial.",
+    "price": 19000,
+    "image": "/img/libros/metodoCombateBruceLee.webp",
+    "category": "deportes"
+  },
+  {
+    "id": 8,
+    "name": "Primera Guerra Mundial",
+    "author": "Sir Basil Liddell Hart",
+    "editorial": "Crítica",
+    "year": 1970,
+    "description": "Un análisis detallado sobre los acontecimientos y consecuencias del gran conflicto bélico.",
+    "price": 23000,
+    "image": "/img/libros/primeraGuerraMundial.webp",
+    "category": "historia"
+  },
+  {
+    "id": 9,
+    "name": "Python",
+    "author": "Eric Matthes",
+    "editorial": "No Starch Press",
+    "year": 2019,
+    "description": "Aprende a programar de manera clara y eficiente con uno de los lenguajes más populares.",
+    "price": 22500,
+    "image": "/img/libros/python.webp",
+    "category": "tecnologia"
+  },
+  {
+    "id": 10,
+    "name": "Segunda Guerra Mundial",
+    "author": "Antony Beevor",
+    "editorial": "Pasado & Presente",
+    "year": 2012,
+    "description": "Una mirada profunda al conflicto global que marcó el rumbo de la historia contemporánea.",
+    "price": 26000,
+    "image": "/img/libros/segundaGuerraMundial.webp",
+    "category": "historia"
+  }
+]
