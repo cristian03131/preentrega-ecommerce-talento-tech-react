@@ -6,12 +6,16 @@ import styles from "./Header.module.css"
 export const Header = () => {
     return (
         <header className={styles.header}>
-          <div>
-            <Link to={"/"}>
-               <img className={styles.img} src={logo} alt="logo de la libreria"/>
-            </Link>
-          </div>
-         <Nav/>
+          <div className={styles.headerContainer}>
+                <div>
+                    <Link to={"/"}>
+                        <img className={styles.img} src={logo} alt="logo de la libreria"/>
+                    </Link>
+                </div>
+               <div className={styles.headerEnlaces}>
+                    <Nav/>
+                </div>
+            </div>
         </header>
     )
 }
