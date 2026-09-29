@@ -1,0 +1,19 @@
+.footer {
+  background-color: #d49b45; /* Puedes usar el mismo tono del header o un poquito más oscuro como #b87d30 */
+  color: #2c2c2c;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.footer-content p {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
