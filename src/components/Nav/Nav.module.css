@@ -15,4 +15,16 @@
   color: #333; 
   font-family: inter;
   
+  
+}
+
+li{
+  width:90px;
+  border: solid 3px rgb(228, 165, 83);
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 10px;
+}
+
+li:hover{
+  background-color: #ad754c
 }
