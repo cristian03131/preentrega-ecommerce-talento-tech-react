@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import {ItemDetail} from "../ItemDetail";
+import {ItemDetail} from "../ItemDetail/ItemDetail";
 
 
-export const DetailContainer = () => {
+export const ItemDetailContainer = () => {
      
     const [producto, setProducto] = useState(null);
     const [error, setError] = useState(null);
