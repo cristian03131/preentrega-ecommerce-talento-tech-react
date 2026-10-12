@@ -4,6 +4,9 @@
   background: linear-gradient(135deg, #d4b28c 0%, #f7bd6c 100%);
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   
   
 }
