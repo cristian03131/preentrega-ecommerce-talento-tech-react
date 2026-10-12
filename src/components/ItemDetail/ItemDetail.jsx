@@ -5,7 +5,7 @@ export const ItemDetail = ({ image, id, name, author, editorial, year, descripti
         <article className={styles.itemDetail}>
             {/* Columna de la imagen */}
             <div className={styles.imageContainer}>
-                <img src={image} alt={name} className={styles.image} />
+                <img src={`${import.meta.env.BASE_URL}${image.replace(/^\//, '')}`} alt={name} className={styles.image} />
             </div>
 
             {/* Columna de la información */}
