@@ -7,7 +7,7 @@ export const ItemListContainer = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/libros.json")
+    fetch(`${import.meta.env.BASE_URL}data/libros.json`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Error al cargar los productos");

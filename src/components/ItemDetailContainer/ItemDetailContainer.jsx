@@ -13,7 +13,7 @@ export const ItemDetailContainer = () => {
 
     useEffect(() => {
         
-         fetch("../../../public/data/libros.json")
+          fetch(`${import.meta.env.BASE_URL}data/libros.json`)
          .then((res) =>{
             if(!res.ok){
                 throw new Error("Error, no se pudo cargar la informacion");
