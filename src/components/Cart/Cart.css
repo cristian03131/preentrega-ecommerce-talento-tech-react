@@ -1,0 +1,123 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  align-items: center;
+}
+
+.cart-items-container {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.empty-cart {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.cart-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-actions p {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* Estilo para cada item individual dentro del carrito */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  gap: 2rem;
+  width: 100%;
+  max-width: 600px;
+ 
+}
+
+/* Control estricto del tamaño de la portada del libro en el carrito */
+.cart-item-image {
+  width: 160px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cart-item-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+ 
+}
+
+.cart-item-info h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+ 
+}
+
+.cart-item-price {
+  font-weight: bold;
+  color: #27ae60;
+  font-size: 1.1rem;
+}
+
+.cart-item-info p{
+    font-size: 1.3rem;
+}
+
+
+/* Rediseño completo del botón Eliminar para darle mejor presencia */
+.cart-item .btn.bg-delete {
+  background-color: #e74c3c; /* Un rojo moderno y elegante */
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1.2rem; /* Mayor área de clic y comodidad */
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
+  margin-top: 1rem;
+}
+
+.cart-item .btn.bg-delete:hover {
+  background-color: #c0392b; /* Tono más oscuro al pasar el cursor */
+  transform: translateY(-1px);
+}
+
+.cart-item .btn.bg-delete:active {
+  transform: translateY(0);
+}
+
+.btn-volver {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 0.6rem 1.5rem; /* El padding hace que el botón se adapte de forma natural al texto */
+    border: solid 2px blue;
+    background-color: #d65e51;
+    color: #ffffff; /* Aseguramos que el texto resalte bien */
+    border-radius: 6px; /* Opcional: una leve curvatura moderna en las esquinas */
+    transition: background-color 0.2s ease;
+}
+
+.btn-volver:hover {
+    background-color: #e00909;
+}

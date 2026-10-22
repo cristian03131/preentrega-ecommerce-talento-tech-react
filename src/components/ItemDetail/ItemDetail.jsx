@@ -1,6 +1,12 @@
 import styles from "./ItemDetail.module.css";
+import { useCart } from "../../context/CartContext"; // 1. Importamos el hook del carrito
 
 export const ItemDetail = ({ image, id, name, author, editorial, year, description, price, category }) => {
+    const { addItem } = useCart(); // 2. Extraemos la función addItem
+
+    
+    const item = { image, id, name, author, editorial, year, description, price, category };
+
     return(
         <article className={styles.itemDetail}>
             {/* Columna de la imagen */}
@@ -22,7 +28,13 @@ export const ItemDetail = ({ image, id, name, author, editorial, year, descripti
                 
                 <div className={styles.price}>${price}</div>
                 
-                <button className={styles.button}>Agregar al carrito</button>
+                {/* 3. Conectamos el botón con el evento onClick */}
+                <button 
+                    className={styles.button}
+                    onClick={() => addItem(item)}
+                >
+                    Agregar al carrito
+                </button>
             </div>
         </article>
     );

@@ -1,6 +1,6 @@
 import styles from "./Item.module.css";
 
-export const Item = ({ name, author, price, image, editorial, year }) => {
+export const Item = ({ name, author, price, image, editorial, year, children }) => {
   return (
     <article className={styles.card}>
       <img src={`${import.meta.env.BASE_URL}${image.replace(/^\//, '')}`} alt={name} />
@@ -8,6 +8,8 @@ export const Item = ({ name, author, price, image, editorial, year }) => {
       <p className={styles.author}>Autor: {author}</p>
       <p className={styles.editorial}>Editorial: {editorial} ({year})</p>
       <p className={styles.price}>${price}</p>
+
+      {children}
     </article>
   );
 };
